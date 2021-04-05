@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+	.grid-container{
+
+	display: grid;
+		grid-template-columns: auto auto auto auto;
+	}
+
+	.grid-container > div {
+	
+		border: 1px solid black;
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	
+.item1{
+		grid-column: 1/5;
+		background-color: deeppink;
+	}
+	.item2{
+		grid-column: 1/2;
+		height: 400px;
+		background-color: lightgreen;
+	}
+	.item3{
+		grid-column: 2/5;
+		height: 400px;
+		background-color: orange;
+
+
+	}
+	.item4{grid-column: 1/5;
+		height: 80px;
+	
+		background-color: blue;
+
+	}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+	<div class="item1">
+  <h1>Webtech.com</h1>
+</div>
+<div class="item2">
+	<h1>Webtech tutorial</h1>
+	<p>Html
+    <p>Java
+    <p>Css	
+    <p>Javascript
+	
+</div>
+<div class="item3">
+	<h1>Html tutorial</h1>
+	What is HTML?
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+A Simple HTML Document
+
+
+
+</div>
+<div class="item4">
+	<h3 style="text-align: center;"> Previous page   Next page  </h3>  
+</div>
+
+
+</body>
+</html>
